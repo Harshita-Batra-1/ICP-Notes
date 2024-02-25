@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "noteskeeper_backend": {
+      "main": "src/noteskeeper_backend/main.mo",
+      "type": "motoko"
+    },
+    "noteskeeper_frontend": {
+      "dependencies": [
+        "noteskeeper_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/noteskeeper_frontend/src/index.html"
+      },
+      "source": [
+        "src/noteskeeper_frontend/assets",
+        "dist/noteskeeper_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
