@@ -1,4 +1,4 @@
-{
+{ 
   "canisters": {
     "noteskeeper_backend": {
       "main": "src/noteskeeper_backend/main.mo",
