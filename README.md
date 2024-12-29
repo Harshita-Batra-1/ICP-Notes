@@ -1,5 +1,5 @@
 # noteskeeper
-## BlockBash ICP
+## ICP
 
 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 
